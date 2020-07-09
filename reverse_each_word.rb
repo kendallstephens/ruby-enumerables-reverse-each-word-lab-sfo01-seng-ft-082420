@@ -5,4 +5,3 @@ def reverse_each_word(sentence)
  if sentence_array.each do |sentence| sentence.reverse!
 
 end
-end
