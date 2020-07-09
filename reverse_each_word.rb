@@ -4,7 +4,6 @@ def reverse_each_word(sentence)
   sentence = new_array << sentence.split("")
  if new_array.each {|sentence| sentence.reverse!}
  end
-   new_array.join("")
 end
-end
+new_array.join("")
 end
