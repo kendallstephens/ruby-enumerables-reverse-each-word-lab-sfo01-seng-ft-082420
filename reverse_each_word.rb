@@ -3,6 +3,7 @@ def reverse_each_word(sentence)
   new_array = []
   sentence = new_array << sentence.split("")
  if new_array.each {|sentence| sentence.reverse!}
+ end
    new_array.join("")
 end
 end
